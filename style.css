@@ -1,0 +1,696 @@
+
+
+body{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(91, 3, 91);
+    
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none !important;
+    list-style: none !important;
+    
+    color: white;
+}
+.copyright{
+    text-align: center;
+    color: white;
+ 
+    font-weight: bolder;
+}
+.container{
+    overflow: hidden;
+}
+.auto-type{
+    
+color: magenta;
+}
+
+.pages{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    color: white ;
+  
+}
+.pages a{
+    color: rgb(255, 255, 255);
+}
+.pages p {
+  
+    font-size: 16px;
+    font-weight: 900;
+}
+.pages a:hover{
+    color: rgb(175, 4, 194);
+    background-color: rgb(199, 35, 35);
+}
+.Hey{
+    text-align: center;
+}
+.MuhammadRiyanSadiq{
+    text-align: center;
+}
+
+.containerr{
+    transform: translateY(20%);
+    text-align: center;
+    color: white;
+    line-height: 240px;
+    margin-top: 150px;
+
+}
+
+
+h1{
+    color: white;
+}
+.about{
+
+    margin-top: 160px;
+   
+}
+.para{
+    width: 50%;
+    font-size: 22px;
+    color: white;
+}
+.insideimg{
+     width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    
+}
+
+.img{
+  
+    height: 100%;
+    width: 100%;
+}
+.picandpara{
+    margin: 0px 20px;
+}
+
+.logoriyan{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    transform: translate(0px,0px);
+    transform: translate(-30px,5px);
+}
+.fa-download{
+    font-size: 15px;
+}
+.resumehead{
+
+    text-align: center;
+    color: white;   
+    
+   
+}
+.resume{
+    margin-top: 210px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.resume img{
+    width: 90%;
+    height: 195px;
+}
+.hamberg{
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px solid white;
+    transform: translate(35%,0px);
+  
+}
+.hamberg p{
+    border: 1px solid white;
+    text-align: center;
+    transform: translateY(20px);
+}
+.unseenhamberg{
+    color: black;
+    width: 11%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(28%,0px);
+    border-left: 25px;
+    border-radius: 6px;
+    display: none;
+    text-align: center;
+}
+.unseenhamberg p:hover{
+background-color: black;
+color: white;
+width: 100%;
+text-align: center;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bottom a{
+    color: white;
+    font-weight: bolder;
+
+}
+.bottom a:hover{
+    color: #ad05aa;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.unseenhamberg p{
+    color: white;
+    background-color: #7d0a7b;
+}
+
+
+
+
+.cross{
+    color: red;
+    cursor: pointer;
+}
+
+.myskillsheading{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    
+}
+
+.progressbar{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.html{
+   color: white;
+    font-size: 20px;
+}
+.htmldiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 2s;
+}
+.css{
+    color: white;
+}
+.cssdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 2s;
+}
+.js{
+    color: white;
+}
+.jsdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 2s;
+}
+.react{
+    color: white;
+}
+.reactdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 2s;
+
+}
+svg{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.projectssection{
+    margin-top: 200px;
+    color: white;
+}
+
+.projects{
+    text-align: center;
+    color: white;
+    
+
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+figure {
+    display: grid;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    height: 100%;
+  }
+  figure > * {
+    grid-area: 1/1;
+    transition: .4s;
+  }
+  figure figcaption {
+    display: flex;
+    justify-content: center;
+flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: .75rem;
+    color: white;
+    background: var(--c,#0009);
+    clip-path: inset(0 var(--_i,100%) 0 0);
+    
+    -webkit-mask-clip: text, padding-box;
+    margin: -1px;
+    
+  }
+  figcaption h1{
+    font-size: 20px;
+   
+    font-weight: bolder;
+    color: #f335f0;
+  }
+
+  figcaption p{
+   
+    font-weight: bolder;
+    color: #f832e1;
+  }
+
+  .fa-download{
+  
+    font-weight: bolder;
+    color: white;
+  }
+ 
+  
+  .linkk{
+    border-radius: 20px;
+    
+   background: linear-gradient(rgb(230, 0, 255),rgb(247, 0, 255),rgb(255, 0, 208));
+       border:none;
+ 
+    text-align: center;
+   
+    width: 100px;
+  }
+  .insidecaption{
+    font-size: 13px;
+  }
+  figure:hover figcaption{
+    --_i: 0%;
+  }
+  figure:hover img {
+    transform: scale(1.2);
+  }
+  .contacthead{
+    text-align: center;
+    color: white;
+    
+  
+
+  }
+  .contactdivone{
+    height: 250px;
+    width: 98%;
+    border: 1px solid rgb(255, 255, 255);
+background-color:rgb(91, 3, 91);
+margin-top: 11px;
+border-radius: 5px;  
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+color: white;
+scale: 1;
+
+}
+
+
+
+
+.contactdivone:hover{
+    box-shadow: 0px 2px 23px 1px rgba(212, 174, 7, 0.81);
+    scale: 1.04;
+}
+.fa-envelope{
+font-size: 70px;
+
+}
+.fa-house{
+    font-size: 70px;
+color: white;   
+}
+.fa-phone{
+    color: rgb(238, 233, 233);
+font-size: 70px; 
+}
+.adress{
+    color: white;
+}
+.number{
+    color: white;
+}
+.contactus{
+    margin-top: 150px !important;
+}
+.skill{
+    margin-top: 170px;
+}
+
+#wave{
+    width: 100%;
+    height: 350px;
+}
+
+
+
+  @supports not (-webkit-mask-clip: text) {
+    figure figcaption {
+     -webkit-mask: none;
+     color: #fff;
+    }
+  }
+/* ==================card animations=========================== */
+
+/* ===========footer animation=============== */
+.waveimg{
+    height: 150px;
+}
+.waveimgone{
+    height: 150px;
+opacity: 0.5;
+}
+.waveimgthree{
+    height: 150px;
+
+}
+.waveimgfour{
+    height: 150px;
+
+}
+.firstimg{
+    transform: translateY(136px);
+}
+.one{
+    transform: translateY(-29px);}
+.two{
+    transform: translateY(-184px);
+}
+.three{
+    transform: translateY(-331px);
+    opacity: 0.8;
+    z-index: -1;
+ 
+}
+.four{
+    transform: translateY(-489px);
+ 
+}
+.moveimg{
+    transform: translateY(-580px);
+    height: 330px;
+    width: 100%;
+    z-index: 1000;
+     display: flex;
+     flex-direction: column;
+    justify-content: space-around;
+    opacity: 1;
+    background-color: rgb(70, 9, 70);
+  
+}
+.aboutme{
+    text-align: center;
+    
+    
+color: white;
+   
+}
+
+.fa-linkedin:hover{
+    color: rgb(37, 37, 187);
+}
+
+.fa-facebook:hover{
+    color: rgb(37, 37, 187);
+}
+.fa-github{
+    
+    line-height: 0;
+}
+.fa-github:hover{
+    color: black;
+    background-color: white;
+}
+
+.fa-youtube:hover{
+    color: red;
+}
+.insidemoveimg{
+    display: flex;
+    justify-content: space-around;
+    font-size: 55px;
+
+}
+
+
+.footer{
+    height: 600px;
+}
+/*  */
+
+
+
+
+/* ==============RESPONSIVE============== */
+
+@media(min-width:320px){
+    .pages{
+        display: none;
+    }
+    .picandpara{
+        flex-direction: column-reverse;
+    }
+    .para{
+        width: 100%;
+        text-align: center;
+        margin: 14px 0px;
+    }
+    .imgcontainer{
+        width: 89%;
+        margin: 14px 0px;
+
+    }
+    
+    .unseenhamberg{
+        width: 27%;
+    }
+}
+@media(min-width:375px){
+
+
+.img{
+    height: 240px;
+}
+.unseenhamberg{
+    transform: translate(40%,0px);
+}
+
+}
+
+@media(min-width:425px){
+   
+    .imgcontainer{
+        height: 320px;  
+    }
+    .img{
+        width: 69%;
+    }
+}
+
+@media(min-width:768px){
+    .pages{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+   
+    .picandpara{
+        flex-direction: row;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+    .hamberg{
+        display: none !important;
+    }
+    .about{
+        margin-top: 277px;
+        
+    }
+    svg{
+        width: 180px;
+        height: 180px;
+    }
+    .carousel-item{
+        height: 100%;
+    }
+   
+    .insideimg{
+        height: 370px;
+    }
+    .contactdiv{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .contactdivone{
+height: 250px;
+width: 100%;
+margin-right: 7px;
+    }
+    .resume img{
+        height: 290px;
+    }
+    figcaption h1{
+        font-size: 30px;
+    }
+    .insidecaption{
+        font-size: 30px;
+   }
+   .linkk{
+    font-size: 30px;
+   }
+   .footer{
+    height: 770px;
+   }
+   .moveimg{
+    transform: translateY(-547px);
+    height: 520px;
+   }
+   .pages p{
+    font-size: 20px;
+   }
+   .myskillsheading{
+    font-size: 33px;
+   }
+   .resumehead{
+    font-size: 33px;
+   }
+   .bottom a{
+    font-size: 30px;
+   }
+   .copyright{
+    font-size: 25px;
+   }
+   .html{
+    font-size: 30px;
+   }
+   .skill{
+    margin-top: 423px;
+   }
+}
+@media(min-width:1024px){
+    .about{
+        padding-block:100px;
+    }
+    .skill{
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 0px;
+
+    }
+    .imgcontainer{
+        height: 390px;
+        width: 50%;
+    }
+    .img{
+        height: 100%;
+    }
+    .para{
+        font-size: 31px;
+        width: 50%;
+    }
+   
+    .insideimg{
+        height: 490px;
+    }
+    .contactdivone{
+        font-size: 22px;
+    }
+    .myskillsheading{
+        font-size: 39px;
+    }
+    .projects{
+        font-size: 39px;
+    }
+    .contacthead{
+        font-size: 39px;
+    }
+    figcaption h1{
+         font-size: 37px;
+    }
+    figcaption p{
+        font-size: 37px;
+   }
+   .pages .p{
+   font-size: 27px;
+}
+.logoriyan{
+    height: 150px;
+    width: 150px;
+}
+.picandpara{
+    width: 100%;
+}
+.resumehead{
+    font-size: 42px;
+}
+.fa-download{
+    font-size: 26px;
+}
+}
