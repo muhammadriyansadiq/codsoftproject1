@@ -637,7 +637,7 @@ margin-right: 7px;
         padding-block:100px;
     }
     .skill{
-        height: 950px;
+        height: 800px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
